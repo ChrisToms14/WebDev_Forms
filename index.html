@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <form action="#" method="POST">
+  <form id="signupForm">
     <h2>Register</h2>
     
     <label for="name">Full Name</label>
@@ -37,6 +37,10 @@
     <textarea id="bio" name="bio" rows="3" placeholder="Tell us a bit about yourself..."></textarea>
 
     <button type="submit">Submit</button>
+
+    <p id="successMessage" class="hidden">Sign up successful!</p>
   </form>
+
+  <script src="script.js"></script>
 </body>
 </html>
